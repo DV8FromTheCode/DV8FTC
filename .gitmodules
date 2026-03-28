@@ -1,0 +1,3 @@
+[submodule "dv8ftc-hub"]
+	path = dv8ftc-hub
+	url = https://github.com/DV8FromTheCode/dv8ftc-hub.git
