@@ -1,0 +1,15 @@
+{
+  "name": "dv8ftc-workspace",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:all": "concurrently -n hub -c \"cyan\" \"npm run dev --prefix dv8ftc-hub\"",
+    "dev:hub": "npm run dev --prefix dv8ftc-hub",
+    "build:all": "npm run build --prefix dv8ftc-hub",
+    "build:hub": "npm run build --prefix dv8ftc-hub",
+    "install:all": "cd dv8ftc-hub && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
